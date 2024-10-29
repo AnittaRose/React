@@ -1,36 +1,47 @@
 // import Greeting from "./Component/Greeting";
 // import Greeting1 from "./Component/Greeting1";
-import ParentComponent from "./Component/parentComponent";
+// import ParentComponent from "./Component/parentComponent";
 // import DisplayComponent from "./Component/DisplayComponent";
 // import FormComponent from "./Component/FormComponent";
-import Counter1 from "./Component/Counter1";
+// import Counter1 from "./Component/Counter1";
 // import Login from "./Conditional_rendering/Login";
 // import Login1 from "./Conditional_rendering/Login";
-import BasicRouting from "./Routing/BasicRouting/BasicRouting";
+// import BasicRouting from "./Routing/BasicRouting/BasicRouting";
+// import BasicRouting1 from "./Routing/BasicRouting1/BasicRouting1";
+// import NestedRouting from "./Routing/NestedRouting/NestedRouting";
+// import ControlledComponent from './Component/ControlledAndUncontrolled/Controlled';
+// import UnControlledComponents from './Component/ControlledAndUncontrolled/Uncontrolled';
+import MyComponentwithUppercase from './Component/HigherorderComponents/Higherordercomponents';
+
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 
 
 
-function App() {
+
+ function App(){
   
 
-  return (
+  return(
     <>
-      {/* <Greeting name={"jimmy"} age={12}/>
+     {/* <Greeting name={"jimmy"} age={12}/> */}
 
-      <Greeting1 place={"Thrissur"} pincode={123456}/> */}
+      {/* <Greeting1 place={"Thrissur"} pincode={123456}/> */}
 
-      {/* <ParentComponent/> */}
+     {/* <ParentComponent/> */}
       {/* <Login/> */}
       {/* <Login1/> */}
-      <BasicRouting/>
-     
-
-      {/* <Counter1/> */}
+      {/* <BasicRouting/> */}
+      {/* <BasicRouting1 /> */}
+      {/* <NestedRouting /> */}
+     {/* <Counter1/> */}
+     {/* <ControlledComponent /> */}
+     {/* <UnControlledComponents /> */}
+      <MyComponentwithUppercase />    
       
     </>
   )
 }
 
-export default App
+export default App;
