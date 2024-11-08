@@ -11,7 +11,9 @@
 // import NestedRouting from "./Routing/NestedRouting/NestedRouting";
 // import ControlledComponent from './Component/ControlledAndUncontrolled/Controlled';
 // import UnControlledComponents from './Component/ControlledAndUncontrolled/Uncontrolled';
-import MyComponentwithUppercase from './Component/HigherorderComponents/Higherordercomponents';
+// import MyComponentwithUppercase from './Component/HigherorderComponents/Higherordercomponents';
+import Userlist from './Component/Hooks/useMemo/UserList';
+import Userlist1 from './Component/Hooks/useMemo/UserList1';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -38,7 +40,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
      {/* <Counter1/> */}
      {/* <ControlledComponent /> */}
      {/* <UnControlledComponents /> */}
-      <MyComponentwithUppercase />    
+      {/* <MyComponentwithUppercase />     */}
+      <Userlist />
+      <Userlist1 />
       
     </>
   )
